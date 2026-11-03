@@ -1,0 +1,32 @@
+# Publishes the public_site/ folder (approved, de-identified statistics) to GitHub Pages.
+name: Public website
+on:
+  push:
+    branches: [main]
+    paths: ["public_site/**", ".github/workflows/pages.yml"]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: true
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Safety check - no patient identifiers in the public site
+        run: |
+          if grep -rIl -E "DEMO-[A-Z]+-[0-9]+|Date of birth|\"mrn\"|\"dob\"" public_site/; then
+            echo "Possible identifiable data found in public_site/ - refusing to publish"; exit 1; fi
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public_site
+      - id: deployment
+        uses: actions/deploy-pages@v4

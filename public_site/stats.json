@@ -1,0 +1,345 @@
+{
+  "registry": "Fiji National Joint Replacement Registry",
+  "published": "2026-11-03",
+  "demo_data": true,
+  "small_cell_threshold": 5,
+  "annual_report": "FNJRR-Annual-Report-2025.pdf",
+  "annual_report_year": 2025,
+  "notes": "Counts from 1 to 4 are shown as '<5'. Survivorship is cumulative percent revision (Kaplan-Meier) with 95% confidence intervals.",
+  "totals": {
+    "total": 1665,
+    "hip": 888,
+    "knee": 777,
+    "primary": 1575,
+    "revision": 90
+  },
+  "by_type": [
+    {
+      "procedure": "Primary total hip replacement",
+      "procedures": 530
+    },
+    {
+      "procedure": "Primary hip hemiarthroplasty",
+      "procedures": 313
+    },
+    {
+      "procedure": "Primary total knee replacement",
+      "procedures": 670
+    },
+    {
+      "procedure": "Primary partial knee replacement",
+      "procedures": 62
+    },
+    {
+      "procedure": "Revision hip replacement",
+      "procedures": 45
+    },
+    {
+      "procedure": "Revision knee replacement",
+      "procedures": 45
+    }
+  ],
+  "by_year": [
+    {
+      "year": 2016,
+      "hip": 27,
+      "knee": 44,
+      "primary": 65,
+      "revision": 6,
+      "total": 71
+    },
+    {
+      "year": 2017,
+      "hip": 46,
+      "knee": 40,
+      "primary": 82,
+      "revision": "<5",
+      "total": 86
+    },
+    {
+      "year": 2018,
+      "hip": 58,
+      "knee": 55,
+      "primary": 107,
+      "revision": 6,
+      "total": 113
+    },
+    {
+      "year": 2019,
+      "hip": 64,
+      "knee": 52,
+      "primary": 113,
+      "revision": "<5",
+      "total": 116
+    },
+    {
+      "year": 2020,
+      "hip": 68,
+      "knee": 77,
+      "primary": 135,
+      "revision": 10,
+      "total": 145
+    },
+    {
+      "year": 2021,
+      "hip": 93,
+      "knee": 69,
+      "primary": 148,
+      "revision": 14,
+      "total": 162
+    },
+    {
+      "year": 2022,
+      "hip": 91,
+      "knee": 81,
+      "primary": 159,
+      "revision": 13,
+      "total": 172
+    },
+    {
+      "year": 2023,
+      "hip": 104,
+      "knee": 83,
+      "primary": 177,
+      "revision": 10,
+      "total": 187
+    },
+    {
+      "year": 2024,
+      "hip": 116,
+      "knee": 92,
+      "primary": 198,
+      "revision": 10,
+      "total": 208
+    },
+    {
+      "year": 2025,
+      "hip": 121,
+      "knee": 92,
+      "primary": 208,
+      "revision": 5,
+      "total": 213
+    },
+    {
+      "year": 2026,
+      "hip": 100,
+      "knee": 92,
+      "primary": 183,
+      "revision": 9,
+      "total": 192
+    }
+  ],
+  "by_hospital": [
+    {
+      "hospital": "Colonial War Memorial Hospital",
+      "procedures": 695
+    },
+    {
+      "hospital": "Lautoka Hospital",
+      "procedures": 410
+    },
+    {
+      "hospital": "Suva Private Hospital",
+      "procedures": 318
+    },
+    {
+      "hospital": "Labasa Hospital",
+      "procedures": 141
+    },
+    {
+      "hospital": "Nadi Hospital",
+      "procedures": 101
+    }
+  ],
+  "manufacturers": [
+    {
+      "manufacturer": "Stryker",
+      "procedures": 705
+    },
+    {
+      "manufacturer": "Zimmer Biomet",
+      "procedures": 429
+    },
+    {
+      "manufacturer": "DePuy Synthes",
+      "procedures": 240
+    },
+    {
+      "manufacturer": "Smith & Nephew",
+      "procedures": 151
+    },
+    {
+      "manufacturer": "CeramTec",
+      "procedures": 119
+    },
+    {
+      "manufacturer": "Meril",
+      "procedures": 85
+    },
+    {
+      "manufacturer": "Generic",
+      "procedures": 75
+    }
+  ],
+  "revision_reasons": [
+    {
+      "reason": "Loosening",
+      "revisions": 32
+    },
+    {
+      "reason": "Infection",
+      "revisions": 21
+    },
+    {
+      "reason": "Periprosthetic fracture",
+      "revisions": 11
+    },
+    {
+      "reason": "Dislocation / instability",
+      "revisions": 8
+    },
+    {
+      "reason": "Other",
+      "revisions": 7
+    },
+    {
+      "reason": "Implant failure / breakage",
+      "revisions": 5
+    },
+    {
+      "reason": "Disease progression (partial joints)",
+      "revisions": "<5"
+    },
+    {
+      "reason": "Pain",
+      "revisions": "<5"
+    }
+  ],
+  "survivorship": [
+    {
+      "procedure": "Total hip",
+      "n": 530,
+      "revised": 18,
+      "cpr": {
+        "1": {
+          "cpr": 2.8,
+          "lo": 1.7,
+          "hi": 4.8
+        },
+        "3": {
+          "cpr": 3.1,
+          "lo": 1.9,
+          "hi": 5.0
+        },
+        "5": {
+          "cpr": 4.4,
+          "lo": 2.7,
+          "hi": 7.2
+        },
+        "10": null
+      },
+      "cells": [
+        "2.8 (1.7, 4.8)",
+        "3.1 (1.9, 5.0)",
+        "4.4 (2.7, 7.2)",
+        "—"
+      ]
+    },
+    {
+      "procedure": "Hip hemiarthroplasty",
+      "n": 313,
+      "revised": 11,
+      "cpr": {
+        "1": {
+          "cpr": 2.6,
+          "lo": 1.2,
+          "hi": 5.4
+        },
+        "3": {
+          "cpr": 3.8,
+          "lo": 1.9,
+          "hi": 7.3
+        },
+        "5": {
+          "cpr": 5.9,
+          "lo": 3.1,
+          "hi": 11.1
+        },
+        "10": null
+      },
+      "cells": [
+        "2.6 (1.2, 5.4)",
+        "3.8 (1.9, 7.3)",
+        "5.9 (3.1, 11.1)",
+        "—"
+      ]
+    },
+    {
+      "procedure": "Total knee",
+      "n": 670,
+      "revised": 21,
+      "cpr": {
+        "1": {
+          "cpr": 2.3,
+          "lo": 1.4,
+          "hi": 3.8
+        },
+        "3": {
+          "cpr": 3.3,
+          "lo": 2.1,
+          "hi": 5.1
+        },
+        "5": {
+          "cpr": 3.9,
+          "lo": 2.5,
+          "hi": 6.0
+        },
+        "10": {
+          "cpr": 3.9,
+          "lo": 2.5,
+          "hi": 6.0
+        }
+      },
+      "cells": [
+        "2.3 (1.4, 3.8)",
+        "3.3 (2.1, 5.1)",
+        "3.9 (2.5, 6.0)",
+        "3.9 (2.5, 6.0)"
+      ]
+    },
+    {
+      "procedure": "Partial knee",
+      "n": 62,
+      "revised": 5,
+      "cpr": {
+        "1": {
+          "cpr": 7.1,
+          "lo": 2.7,
+          "hi": 17.9
+        },
+        "3": {
+          "cpr": 7.1,
+          "lo": 2.7,
+          "hi": 17.9
+        },
+        "5": {
+          "cpr": 7.1,
+          "lo": 2.7,
+          "hi": 17.9
+        },
+        "10": null
+      },
+      "cells": [
+        "7.1 (2.7, 17.9)",
+        "7.1 (2.7, 17.9)",
+        "7.1 (2.7, 17.9)",
+        "—"
+      ]
+    }
+  ],
+  "first_year": 2016,
+  "last_year": 2026,
+  "annual_reports": [
+    "FNJRR-Annual-Report-2025.pdf"
+  ]
+}
